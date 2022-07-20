@@ -1,0 +1,5 @@
+name: FixSprint 1.19.XX
+api: [3.0.0]
+main: MohamadOC\FixSprint
+author: MohamadOC
+version: 1.0
