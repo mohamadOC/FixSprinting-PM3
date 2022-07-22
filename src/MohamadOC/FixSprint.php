@@ -74,7 +74,7 @@ class FixSprint extends PluginBase implements Listener{
     /*
     task to check if the player is moving!, if not then stop the sprint.
     */
-    $this->getScheduler()->scheduleRepeatingTask(new Movecheck(), 1);
+    $this->getScheduler()->scheduleRepeatingTask(new Movecheck(), 5);
     self::$instance = $this;
 
 	}
