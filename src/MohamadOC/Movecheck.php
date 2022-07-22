@@ -16,7 +16,7 @@ class Movecheck extends Task{
 		if(isset(FixSprint::$Moving[$player->getName()])){
 		$time = FixSprint::$Moving[$player->getName()];
 		$calculate = time() - $time;
-		if($calculate > 0.00001){
+		if($calculate > 0){
 		unset(FixSprint::$Moving[$player->getName()]);
 	    unset(FixSprint::$sprinting[$player->getName()]);
 		}
